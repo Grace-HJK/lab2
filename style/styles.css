@@ -69,20 +69,33 @@ section{
     text-align: left;
 }
 
-.submitButton{
+section2{
+    float: left;
+    clear: left;
+    margin:5px;
+    width: 100%;
+}
+
+#submitButton{
     background-color: plum;
     color: cornsilk;
+    text-align: center;
+    float: left;
+    width: 8%;
     border: 2px solid rebeccapurple;
     border-radius: 8px;
     padding: 10px 16px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 4px 10px 4px 2px;
     cursor: pointer;
 }
 
-.resetButton{
+#resetButton{
     background-color: powderblue;
     color: palevioletred;
+    text-align: center;
+    float: left;
+    width: 8%;
     border: 2px solid royalblue;
     border-radius: 8px;
     padding: 10px 16px;
@@ -91,13 +104,13 @@ section{
     cursor: pointer;
 }
 
-.submitButton:hover {
+#submitButton:hover {
     background-color: white;
     color: deeppink;
     border: 2px solid rebeccapurple;
 }
 
-.resetButton:hover {
+#resetButton:hover {
     background-color: white;
     color: red;
     border: 2px solid royalblue;
