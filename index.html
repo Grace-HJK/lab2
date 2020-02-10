@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ITMD-362 Human and Computer Interactions</title>
+  <link rel="stylesheet" href="style/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>My Info</legend>
+
+      <section>
+        <label>Phone Number: </label>
+        <input type="tel" name="phone_field" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <small>Format: 123-456-7890</small>
+      </section>
+
+      <section>
+        <label>Email Address: </label>
+        <input type="email" name="email_field" placeholder="gracekwon@gmail.com">
+      <small>Format: gracekwon@gmail.com</small>
+      </section>
+
+      <section>
+        <label>Date of Birth: </label>
+        <input type="date" name="date_of_birth">
+      </section>
+    </fieldset>
+
+    <input type="submit" class="submitButton" value="Submit">
+    <input type="reset" class="resetButton" value="Reset">
+  </form>
+</body>
+</html>
