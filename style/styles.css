@@ -50,6 +50,7 @@ body{
     border: 1px solid #444;
     margin: 20px 20px;
     padding: 5px 20px;
+    width: 55%;
 }
 
 legend {
