@@ -74,25 +74,19 @@ legend{
     color: whitesmoke;
 }
 
-section{
+div{
     display: inline-block;
     float: left;
-    clear: left;
+
     margin:5px;
     text-align: left;
-}
-
-section2{
-    float: left;
-    clear: left;
-    margin:5px;
-    width: 100%;
 }
 
 #submitButton{
     background-color: plum;
     color: cornsilk;
     text-align: center;
+    clear: left;
     float: left;
     width: auto;
     border: 2px solid rebeccapurple;
