@@ -48,10 +48,9 @@ table {
 
 #myForm{
     border: 1px solid #444;
-    margin: 20px 20px;
     padding: 5px 20px;
-    width: 50%;
-    height: 230px;
+    max-width: min-content;
+    margin: 2% 20% 0 20%;
     background-color: #E4E4D9;
     background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
     linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
@@ -95,7 +94,7 @@ section2{
     color: cornsilk;
     text-align: center;
     float: left;
-    width: 8%;
+    width: auto;
     border: 2px solid rebeccapurple;
     border-radius: 8px;
     padding: 10px 16px;
@@ -109,7 +108,7 @@ section2{
     color: palevioletred;
     text-align: center;
     float: left;
-    width: 8%;
+    width: auto;
     border: 2px solid royalblue;
     border-radius: 8px;
     padding: 10px 16px;
@@ -128,4 +127,20 @@ section2{
     background-color: white;
     color: red;
     border: 2px solid royalblue;
+}
+
+@media screen and (min-width: 600px){
+    #myForm{
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #myForm{
+        min-width: 700px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
