@@ -77,9 +77,12 @@ legend{
 div{
     display: inline-block;
     float: left;
-
     margin:5px;
     text-align: left;
+}
+
+.information{
+    clear: left;
 }
 
 #submitButton{
