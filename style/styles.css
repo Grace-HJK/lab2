@@ -77,19 +77,15 @@ legend{
 div{
     display: inline-block;
     float: left;
-    margin:5px;
-    text-align: left;
-}
-
-.information{
     clear: left;
+    margin: 5px;
+    text-align: left;
 }
 
 #submitButton{
     background-color: plum;
     color: cornsilk;
     text-align: center;
-    clear: left;
     float: left;
     width: auto;
     border: 2px solid rebeccapurple;
@@ -104,6 +100,7 @@ div{
     background-color: powderblue;
     color: palevioletred;
     text-align: center;
+    clear: right;
     float: left;
     width: auto;
     border: 2px solid royalblue;
